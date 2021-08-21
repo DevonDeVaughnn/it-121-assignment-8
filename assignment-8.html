@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title>Assignment 8</title>
+  </head>
+  <body>
+    <div id="welcome"></div>
+    <div class="container">
+      <div id="dialog" title="Effect 2" style="color: #035e7b">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+          praesentium fugiat quis minus nesciunt quam labore dolorem architecto
+          unde eligendi.
+        </p>
+      </div>
+      <div class="color-animation" id="draggable">
+        <div class="row">
+          <div class="col">
+            <div class="toggler-1">
+              <div id="effect-1" class="ui-widget-content ui-corner-all">
+                <h3 class="ui-widget-header ui-corner-all" id="toggler-h3">
+                  Effect 1 (also Effect 6, drag me)
+                </h3>
+                <p id="toggler-words">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                  magnam, nulla, officia quis perferendis harum fugit laborum
+                  libero excepturi sequi beatae rerum, ea quam ad.
+                </p>
+              </div>
+            </div>
+            <button
+              id="button-1"
+              class="ui-state-default ui-corner-all"
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="blind" id="effect-2">
+        <h3 class="ui-widget-header ui-corner-all" id="toggler-h3">Effect 3</h3>
+        <p class="blindPara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius
+          tenetur eos repellendus, sit explicabo sint tempore ratione numquam
+          corrupti quam pariatur quia asperiores non.
+        </p>
+        <select name="effects" id="effectTypes">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+          <option value="transfer">Transfer</option>
+        </select>
+        <button id="button-2" class="ui-state-default ui-corner-all">
+          Run Effect
+        </button>
+      </div>
+
+      <div id="accordion">
+        <div class="group">
+          <h3>Effect 4</h3>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              molestias iure sequi fugit iste officiis consequuntur aliquid sunt
+              quaerat minima perferendis explicabo tenetur natus eaque!
+            </p>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Lorem 2</h3>
+          <div>
+            <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit
+              amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris
+              turpis porttitor velit, faucibus interdum tellus libero ac justo.
+              Vivamus non quam. In suscipit faucibus urna.
+            </p>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Lorem 3</h3>
+          <div>
+            <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque
+              lobortis. Phasellus pellentesque purus in massa. Aenean in pede.
+              Phasellus ac libero ac tellus pellentesque semper. Sed ac felis.
+              Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu
+              iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+              <li>Drag us</li>
+              <li>Small Lorem</li>
+              <li>Medium Lorem</li>
+              <li>Extra Lorem</li>
+            </ul>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Lorem 4</h3>
+          <div>
+            <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum
+              primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+              Aenean lacinia mauris vel est.
+            </p>
+            <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat
+              lectus. Class aptent taciti sociosqu ad litora torquent per
+              conubia nostra, per inceptos himenaeos.
+            </p>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Lorem 5 (also effect 5, we all can be moved and sorted)</h3>
+          <div>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              officia velit inventore non, omnis laudantium consectetur beatae
+              facilis iste id! Ipsam quo voluptates ratione iure?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+body {
+  background: #5f4f66;
+  color: #eff1c5;
+}
+html {
+  text-align: center;
+}
+#welcome {
+  text-align: center;
+}
+
+#toggler-h3 {
+  color: #035e7b;
+  text-align: center;
+}
+.group h3 {
+  color: #035e7b;
+}
+.group {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.ui-button {
+  float: right;
+  height: 23px;
+  outline: 0;
+}
+.dialog {
+  text-align: center;
+  color: #002e2c;
+}
+#accordion {
+  width: 500px;
+  height: auto;
+  float: right;
+  border: 2px solid #035e7b;
+  padding: 5px;
+  background: #eff1c5;
+  margin-top: 5px;
+}
+.toggler-1 {
+  width: 100%;
+  margin: 0 auto;
+}
+#effect-1 {
+  margin: 0 auto;
+}
+#effect-2 {
+  clear: both;
+  width: 500px;
+  border: 2px solid #035e7b;
+  padding: 5px;
+  background: #eff1c5;
+  color: #035e7b;
+  margin-top: 160px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+button {
+  width: auto;
+  height: 30px;
+
+  outline: #035e7b;
+  border-radius: 3px;
+}
